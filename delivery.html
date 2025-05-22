@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка | Суши Seiko</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #d7000f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: #d7000f;
+            border-bottom: 2px solid #d7000f;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .delivery-info {
+            background-color: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .price-list {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .price-list th, .price-list td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .price-list th {
+            background-color: #d7000f;
+            color: white;
+        }
+        .price-list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .note {
+            font-style: italic;
+            color: #666;
+            margin-top: 20px;
+        }
+        .contact {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Доставка суши и роллов</h1>
+        <p>Быстрая и бесплатная доставка по вашему району</p>
+    </header>
+
+    <div class="delivery-info">
+        <h2>Условия бесплатной доставки</h2>
+        <table class="price-list">
+            <tr>
+                <th>Минимальная сумма заказа</th>
+                <th>Населенные пункты</th>
+            </tr>
+            <tr>
+                <td>Свыше 1300 рублей</td>
+                <td>поселок Юматово</td>
+            </tr>
+            <tr>
+                <td>Свыше 1500 рублей</td>
+                <td>поселок Уптино, ст. Юматово, Санаторий Алкино (новый поселок)</td>
+            </tr>
+            <tr>
+                <td>Свыше 1800 рублей</td>
+                <td>поселки Санаторий Алкино (Толпар)</td>
+            </tr>
+            <tr>
+                <td>Свыше 2000 рублей</td>
+                <td>поселки Алкино, Авдон, Жуково, Узытамак, Сергеевка</td>
+            </tr>
+            <tr>
+                <td>Свыше 2500 рублей</td>
+                <td>поселок Уразбахты</td>
+            </tr>
+        </table>
+
+        <h2>Стоимость платной доставки</h2>
+        <table class="price-list">
+            <tr>
+                <th>Сумма заказа</th>
+                <th>Населенные пункты</th>
+                <th>Стоимость доставки</th>
+            </tr>
+            <tr>
+                <td>Менее 1300 рублей</td>
+                <td>Юматово</td>
+                <td>200 руб.</td>
+            </tr>
+            <tr>
+                <td>Менее 1500 рублей</td>
+                <td>Уптино, Санаторий Алкино — новый поселок</td>
+                <td>250 руб.</td>
+            </tr>
+            <tr>
+                <td>Менее 2000 рублей</td>
+                <td>Санаторий Алкино (Толпар), Алкино, Авдон, Жуково</td>
+                <td>400 руб.</td>
+            </tr>
+        </table>
+
+        <p class="note">* В сумму заказа не включаются некоторые товары и товары по акции.</p>
+        <p class="contact">Подробности доставки Вы также можете уточнить у оператора по телефону: <strong>8-919-1-588-288</strong></p>
+    </div>
+
+    <footer>
+        <p>© 2023 Суши Seiko. Все права защищены.</p>
+    </footer>
+</body>
+</html>

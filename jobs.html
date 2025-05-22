@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вакансии | Суши Seiko</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #d7000f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            background-color: white;
+            color: #d7000f;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .back-button:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: #d7000f;
+            border-bottom: 2px solid #d7000f;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .delivery-info, .working-hours, .vacancies {
+            background-color: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .price-list {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .price-list th, .price-list td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .price-list th {
+            background-color: #d7000f;
+            color: white;
+        }
+        .price-list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .hours-table, .vacancies-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .hours-table td, .vacancies-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+        }
+        .hours-table tr:first-child td, .vacancies-table tr:first-child td {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .salary {
+            color: #d7000f;
+            font-weight: bold;
+        }
+        .note {
+            font-style: italic;
+            color: #666;
+            margin-top: 20px;
+        }
+        .contact {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        .vacancy-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 15px 0 5px 0;
+        }
+        .vacancy-desc {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="back-button">← На главную</a>
+        <h1>Суши Seiko</h1>
+    </header>
+
+    
+
+    <div class="vacancies">
+        <h2>Вакансии</h2>
+        <p><strong>Дорогой клиент! Ищем в нашу команду сотрудников:</strong></p>
+        
+        <div class="vacancy-title">Администратор-кассир</div>
+        <div class="vacancy-desc">
+            <p>Обязанности: прием заказов, работа с кассой, общение с клиентами.</p>
+            <p>График: гибкий</p>
+            <p>Опыт работы не обязателен!</p>
+            <p class="salary">Зарплата: от 25 000 руб.</p>
+        </div>
+        
+        <div class="vacancy-title">Повар</div>
+        <div class="vacancy-desc">
+            <p>Обязанности: приготовление блюд японской кухни, соблюдение рецептур.</p>
+            <p>График: гибкий</p>
+            <p>Опыт работы не обязателен! Научим!</p>
+            <p class="salary">Зарплата: от 30 000
